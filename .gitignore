@@ -8,11 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Arquivos CSS e JSX específicos
-
+hero.css
 
 # Diretório public
 public/
-hero/
 
 node_modules
 dist
