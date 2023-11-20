@@ -7,10 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Arquivos CSS e JSX específicos
-
-# Diretório public
-
 
 node_modules
 dist
