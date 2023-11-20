@@ -1,4 +1,3 @@
-export * from "./Home"
 export * from "./jogos"
 export * from "./galeria"
 export * from "./unbox"

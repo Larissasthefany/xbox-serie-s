@@ -1,0 +1,65 @@
+.jogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.jogos img {
+    width: 300px;
+    height: 550px;
+}
+
+.jogos div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.jogos div::after {
+    position: absolute;
+    bottom: 35px;
+}
+
+.jogos .mc::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 60px;
+    background: url(../img/mc.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jogos .ff::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 60px;
+    background: url(../../../public/img/ff.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jogos .fc6::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 60px;
+    background: url(../img/fc6.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.jogos .forz::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 60px;
+    background: url(../img/Forza_Horizon\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

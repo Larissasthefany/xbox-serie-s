@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom"
-import XboxLogo from '../../../public/img/xbox.png'
+import XboxLogo from '../../../public/img/xbox (1).png'
 import './navbar.css'
 
 export default function Navbar() {
@@ -18,7 +18,7 @@ export default function Navbar() {
                 <span></span>
             </div>
             <ul className={menuOpen ? "open" : ""}>
-                <li key="home"><Link to="/">visão geral</Link></li>
+                <li key="voltar"><Link to="/">Home</Link></li>
                 <li key="jogos"><Link to="/jogos">jogos</Link></li>
                 <li key="galeria"><Link to="/galeria">galeria</Link></li>
                 <li key="unbox"><Link to="/unbox">unbox</Link></li>

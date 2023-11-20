@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 20rem;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+}
+
+.links ul li {
+    cursor: pointer;
+    line-height: 39px;
+    list-style-type: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+}

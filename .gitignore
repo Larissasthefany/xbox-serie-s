@@ -7,6 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Arquivos CSS e JSX específicos
+home.jsx
+hero.css
+
+
+# Diretório public
+public/
+hero/
+Navbar/
+
 node_modules
 dist
 dist-ssr
