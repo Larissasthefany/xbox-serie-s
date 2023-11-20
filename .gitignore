@@ -10,7 +10,7 @@ lerna-debug.log*
 # Arquivos CSS e JSX específicos
 
 # Diretório public
-public/
+
 
 node_modules
 dist
