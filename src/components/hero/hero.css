@@ -14,7 +14,7 @@
     color: #88CD14;
 }
 
-.hero-content button{
+.hero-content button {
     color: #88CD14;
     font-size: 1.4rem;
     font-weight: bolder;
@@ -26,6 +26,6 @@
     cursor: pointer;
 }
 
-.hero-content button:hover{
+.hero-content button:hover {
     color: #fff;
 }

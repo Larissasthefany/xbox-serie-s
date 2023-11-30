@@ -10,7 +10,7 @@ import Forza from '../../../public/img/forzahorizon.png'
 
 export default function Home() {
     return (
-        <main>
+        <main className="main">
             <section className="main-content">
                 <div className='content'>
                     <h2><span>Desempenho</span> <br />Aperfeiçoado</h2>

@@ -3,8 +3,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem 20rem;
-    /* margin: 0 auto; */
-    /* gap: 100px; */
 }
 
 nav img {
@@ -65,46 +63,4 @@ nav .menu span {
     width: 100%;
     background-color: #fff;
     border-radius: 0.2rem;
-}
-
-@media screen and (max-width: 992px) {
-    nav {
-        margin: 0 1rem;
-    }
-
-    nav ul {
-        display: block;
-    }
-
-    nav .menu {
-        display: flex;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 0.25rem;
-
-
-    }
-
-    nav ul.open {
-        display: flex;
-    }
-
-    nav ul li {
-        width: 100%;
-        text-align: center;
-    }
-
-    nav ul li a {
-        margin: 0.2rem 0.5rem;
-        display: block;
-    }
 }
