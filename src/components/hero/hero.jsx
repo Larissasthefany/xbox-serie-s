@@ -5,7 +5,7 @@ export default function Hero(){
     return (
         <div className="hero">
             <div className="hero-content">
-                <img src={HeroXbox} alt="Imagem do hero de um xbox" />
+                <img src={HeroXbox} alt="Imagem do hero de um xbox" className='hero-img' />
                 <h2><span>Xbox Serie S</span> | Xbox</h2>
                 <button>Pedido Antecipado</button>
             </div>

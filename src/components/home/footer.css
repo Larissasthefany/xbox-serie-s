@@ -22,3 +22,11 @@
 .links ul li a {
     text-decoration: none;
 }
+
+.footer h4 {
+    color: #88CD14;
+}
+
+.footer li:hover{
+    color: #7cb31cda;
+}
